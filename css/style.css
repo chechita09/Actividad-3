@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    padding: 30px;
+    background-color: #0c27bb;
+    background: linear-gradient(143deg,#7284e7, #bfc3ec)
+}
+h1 {
+    font-size: 50px;
+}
+#mensajeError {
+    color: red;
+}
+input {
+    margin: 10px 0;
+    height: 30px;
+}
+button {
+    margin: 10px 0;
+    padding: 5px 10px;
+}
+.container {    
+    display: flex;    
+}
+.resultado {
+    display: grid;
+    align-content: space-between;
+    width: 160px;
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 15px;
+    background-color: #ebecff;
+}
+.hide {
+    display: none;
+}
+#imagenClima {
+    width: 100%;
+}

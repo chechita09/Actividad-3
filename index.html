@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Clima</title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1>El clima</h1>
+    <input id="datePicker" type="date">
+    <p id="mensajeError"></p>
+    <button id="botonConsultar">Consultar</button>
+<div class="container">
+    <div class="resultado hide" id="morning">
+        <p id="resultFechaMorning"></p>
+        <p>Mañana</p>
+        <p id="resultTemperaturaMorning"></p>
+        <div id="imagenClima"><img id="resultImgMorning" src="" alt=""></div>
+        <p id="resultTipoClimaMorning"></p>
+    </div>
+    <div class="resultado hide" id="afternoon">
+        <p id="resultFechaAfternoon"></p>
+        <p>Tarde</p>
+        <p id="resultTemperaturaAfternoon"></p>
+        <div id="imagenClima"><img id="resultImgAfternoon" src="" alt=""></div>
+        <p id="resultTipoClimaAfternoon"></p>
+    </div>
+    <div class="resultado hide" id="evening">
+        <p id="resultFechaEvening"></p>
+        <p>Noche</p>
+        <p id="resultTemperaturaEvening"></p>
+        <div id="imagenClima"><img id="resultImgEvening" src="" alt=""></div>
+        <p id="resultTipoClimaEvening"></p>
+    </div>
+</div>
+    <script type="module" src="./index.js"></script>
+</body>
+</html>
